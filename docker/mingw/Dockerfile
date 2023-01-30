@@ -20,7 +20,7 @@
 
 FROM debian:stretch
 
-ARG REPO=shadowsocks
+ARG REPO=cpple
 ARG REV=master
 
 ADD docker/mingw/apt.sh /
