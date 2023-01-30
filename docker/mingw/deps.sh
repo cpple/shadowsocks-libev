@@ -38,7 +38,7 @@ build_deps() {
     make -j$cpu install
 
     # mbedtls
-    cd "$SRC/$MBEDTLS_SRC"
+    cd "$SRC/mbedtls-$MBEDTLS_SRC"
     make clean
     make -j$cpu lib WINDOWS=1 CC="${host}-gcc" AR="${host}-ar"
     ## "make install" command from mbedtls

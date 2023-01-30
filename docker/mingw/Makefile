@@ -19,7 +19,7 @@
 #
 
 REPO=shadowsocks
-REV=master
+REV=v3.3.3
 IMAGE=ss-build-mingw
 DIST=ss-libev-win-dist.tar.gz
 
