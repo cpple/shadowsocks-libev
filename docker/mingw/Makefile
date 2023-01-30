@@ -18,8 +18,8 @@
 # <http://www.gnu.org/licenses/>.
 #
 
-REPO=shadowsocks
-REV=v3.3.3
+REPO=cpple
+REV=master
 IMAGE=ss-build-mingw
 DIST=ss-libev-win-dist.tar.gz
 
