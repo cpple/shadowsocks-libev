@@ -38,6 +38,7 @@
 
 #include "crypto.h"
 #include "jconf.h"
+#include "resolv.h"
 #include "netutils.h"
 
 #include "common.h"
