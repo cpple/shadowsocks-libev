@@ -43,7 +43,7 @@ LIBEV_URL=http://kk.sharpshun.com/acl/${LIBEV_SRC}.tar.gz
 # Public libraries
 
 ## mbedTLS
-MBEDTLS_VER=2.16.5
+MBEDTLS_VER=2.28.2
 MBEDTLS_SRC=mbedtls-${MBEDTLS_VER}
 MBEDTLS_URL=http://kk.sharpshun.com/acl/mbedtls-${MBEDTLS_VER}.tar.gz
 

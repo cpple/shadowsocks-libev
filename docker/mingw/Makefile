@@ -18,7 +18,7 @@
 # <http://www.gnu.org/licenses/>.
 #
 
-REPO=cpple
+REPO=shadowsocks
 REV=master
 IMAGE=ss-build-mingw
 DIST=ss-libev-win-dist.tar.gz
