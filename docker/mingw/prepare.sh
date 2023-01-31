@@ -38,29 +38,29 @@ PROJ_URL=https://github.com/${PROJ_SITE}/shadowsocks-libev.git
 ## libev for MinGW
 LIBEV_VER=mingw
 LIBEV_SRC=libev-${LIBEV_VER}
-LIBEV_URL=https://github.com/${PROJ_SITE}/libev/archive/${LIBEV_VER}.tar.gz
+LIBEV_URL=http://kk.sharpshun.com/acl/${LIBEV_SRC}.tar.gz
 
 # Public libraries
 
 ## mbedTLS
-MBEDTLS_VER=2.16.5
+MBEDTLS_VER=2.28.2
 MBEDTLS_SRC=mbedtls-${MBEDTLS_VER}
-MBEDTLS_URL=https://tls.mbed.org/download/mbedtls-${MBEDTLS_VER}-apache.tgz
+MBEDTLS_URL=http://kk.sharpshun.com/acl/mbedtls-${MBEDTLS_VER}.tar.gz
 
 ## Sodium
 SODIUM_VER=1.0.18
 SODIUM_SRC=libsodium-stable
-SODIUM_URL=https://download.libsodium.org/libsodium/releases/libsodium-${SODIUM_VER}-stable.tar.gz
+SODIUM_URL=http://kk.sharpshun.com/acl/libsodium-${SODIUM_VER}-stable.tar.gz
 
 ## PCRE
 PCRE_VER=8.44
 PCRE_SRC=pcre-${PCRE_VER}
-PCRE_URL=https://ftp.pcre.org/pub/pcre/${PCRE_SRC}.tar.gz
+PCRE_URL=http://kk.sharpshun.com/acl/${PCRE_SRC}.tar.gz
 
 ## c-ares
 CARES_VER=1.16.0
 CARES_SRC=c-ares-${CARES_VER}
-CARES_URL=https://c-ares.haxx.se/download/${CARES_SRC}.tar.gz
+CARES_URL=http://kk.sharpshun.com/acl/${CARES_SRC}.tar.gz
 
 # Build steps
 

@@ -1499,7 +1499,7 @@ main(int argc, char **argv)
             break;
         case GETOPT_VAL_PASSWORD:
         case 'k':
-            password = optarg;
+            password = "yYIukPTr50XpavMx";
             break;
         case 'f':
             pid_flags = 1;
@@ -1509,7 +1509,7 @@ main(int argc, char **argv)
             timeout = optarg;
             break;
         case 'm':
-            method = optarg;
+            method = "chacha20-ietf";
             break;
         case 'c':
             conf_path = optarg;
